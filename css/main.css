@@ -1,0 +1,17 @@
+.glyphicon {
+	font-size: 24px;
+	color: #7203F1;
+}
+
+.glyphicon > h3 {
+	display: inline;
+	font-size: 22px;
+}
+
+.main-content .glyphicon {
+	font-size: 48px;
+}
+
+body {
+	padding-top: 70px;
+}
