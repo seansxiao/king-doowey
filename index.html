@@ -7,52 +7,80 @@
 	</head>
 
 	<body>
-		<div class='navbar navbar-default navbar-fixed-top'>
+		<div class='navbar navbar-default navbar-static-top'>
 			<div class='container'>
-				<span class="glyphicon glyphicon-picture"></span>
-				<a href='index.html' class='navbar-brand'>Header</a>
-				<ul class='nav navbar-nav navbar-right'>
+				<div class='navbar-header'>
+					<a href='index.html' class='navbar-brand'>King Doowey</a>
+
+					<button type='button' class='navbar-toggle' data-toggle='collapse' data-target='.navbar-collapse'>
+						<span class='sr-only'>Toggle navigation</span>
+						<span class='icon-bar'></span>
+						<span class='icon-bar'></span>
+						<span class='icon-bar'></span>
+					</button>
+				</div>
+
+				<ul class='nav navbar-nav navbar-right collapse navbar-collapse'>
 					<li><a href='index.html'>Link 1</a></li>
 					<li><a href='index.html'>Link 2</a></li>
 					<li><a href='index.html'>Link 3</a></li>
+					<li>
+						<a href='#' data-toggle='dropdown'>About <span class='caret'></span></a>
+						<ul class='dropdown-menu'>
+							<li><a href='index.html'>Link 1</a></li>
+							<li class='divider'></li>
+							<li><a href='index.html'>Link 2</a></li>
+							<li><a href='index.html'>Link 3</a></li>
+							<li class='divider'></li>
+							<li><a href='index.html'>Link 4</a></li>
+						</ul>
+					</li>
 				</ul>
 			</div>
 		</div>
 
 		<div class='container'>
-			<div class='row text-center well well-lg'>
-				<div class='col-sm-3 col-xs-4 col-xs-offset-1 col-sm-offset-0'>
+			<div class='row text-center'>
+				<div class='col-sm-3 col-xs-5 col-xs-offset-1 col-sm-offset-0 profile-container' style='background-image:url("res/img/doowey01.jpg");'>
 					<span class="glyphicon glyphicon-king"><h3> Doowey</h3></span>
-					<p><button type='button' class='btn btn-md'>League Legend</button></p>
+					<h4>League Legend</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 				</div>
-				<div class='col-sm-3 col-xs-4 col-xs-offset-2 col-sm-offset-0'>
+				<div class='col-sm-3 col-xs-5 col-xs-offset-0 col-sm-offset-0 profile-container' style='background-image:url("res/img/kspatel01.jpg");'>
 					<span class="glyphicon glyphicon-queen"><h3> kspatel</h3></span>
-					<p><button type='button' class='btn btn-md'>Django Unchained</button></p>
+					<h4>Django Unchained</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 				</div>
-				<div class='col-sm-3 col-xs-4 col-xs-offset-1 col-sm-offset-0'>
-					<span class="glyphicon glyphicon-bishop"><h3> Dipology</h3></span>
-					<p><button type='button' class='btn btn-md'>Dipomonster</button></p>
+				<div class='col-sm-3 col-xs-5 col-xs-offset-1 col-sm-offset-0 profile-container' style='background-image:url("res/img/rchiang01.jpg");'>
+					<span class="glyphicon glyphicon-knight"><h3> Dipology</h3></span>
+					<h4>Dipomonster</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 				</div>
-				<div class='col-sm-3 col-xs-4 col-xs-offset-2 col-sm-offset-0'>
-					<span class="glyphicon glyphicon-pawn"><h3> yuen</h3></span>
-					<p><button type='button' class='btn btn-md'>shit</button></p>
-				</div>
+				<div class='col-sm-3 col-xs-5 col-xs-offset-0 col-sm-offset-0 profile-container' style='background-image:url("res/img/yuen01.jpg");'>
+					<span class="glyphicon glyphicon-pawn"><h3> Poniu</h3></span>
+					<h4>Gym Rat</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 			</div>
+			</div>
+		</div>
 
+		<div class='container-fluid'>
 			<div class='row text-center main-content'>
-				<div class='col-sm-6'>
+				<div class='col-sm-6 col-md-4 col-md-offset-1'>
 					<span class="glyphicon glyphicon-headphones"></span>
 					<h2>Content 1</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				</div>
-				<div class='col-sm-6'>
+				<div class='col-sm-6 col-md-4 col-md-offset-2'>
 					<span class="glyphicon glyphicon-camera"></span>
 					<h2>Content 2</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				</div>
 			</div>
+		</div>
 
-			<div class='row'>
+		<div class='container-fluid'>
+			<div class='row footer'>
 				<div class='col-xs-4 col-xs-offset-1'>
 					<h4>About</h4>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
